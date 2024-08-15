@@ -146,7 +146,7 @@ ion-icon { pointer-events: none; }
 address { font-style: normal; }
 
 html {
-  font-family: var(--ff-roboto);
+  font-family: 'Tajawal';
   font-size: 10px;
   scroll-behavior: smooth;
 }
