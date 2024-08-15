@@ -48,10 +48,13 @@ Ionicon
 ```
 
 ## Typography
-
+@font-face{
+  font-family: 'Tajawal';
+  src: url(/font/Tajawal-Medium.ttf);
+}
 ``` css
---ff-roboto: 'Roboto', sans-serif;
---ff-league-spartan: 'League Spartan', sans-serif;
+--ff-roboto: 'Tajawal', Tajawal;
+--ff-league-spartan: 'Tajawal', Tajawal;
 
 --fs-1: 3.5rem;
 --fs-2: 3rem;
