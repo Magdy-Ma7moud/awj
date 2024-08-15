@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مناديل أوج</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+  <meta name="description" content="المنديل العادي .. ضعيف يذوب ويتفتت من اي قطرة سائل تحتاج كمية أكبر في كل مرة تستخدمه 😩 اما بالنسبة لـمنديل أوج .. - شجاع وقوي 💪 .. ضد السوائل. - يقاتل معك لآخر قطرة☹️❤️! - ما يطلب فزعتك حتى لو أحتاج💔">
+  <meta http-equiv="Content-Language" content="ar">
+  <meta name="author" content="مناديل أوج">
+  <meta property="og:title" content="مناديل أوج">
+  <meta property="og:description" content="مناديل أوج حنونة على بشرتك وجيبك">
+  <meta property="og:type" content="website">
+  
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header >
+    <div class="container">
+    
+      <a href="#" class="logo"><img src="favicon.png" alt="logo"></a>
+<style>
+  header .logo img{
+    width: 80px;
+    scale:1.9; 
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  @media screen and (max-width:767px) {
+    header .logo img{
+    width: 60px;
+  }
+       }
+</style>
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>الصفحة الرئيسية</a>
+          </li>
+          
+         <li>
+           <a href="#about" class="navbar-link" data-nav-link>عنا</a>
+         </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>منتجاتنا وعروضنا</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>تواصل معنا</a>
+          </li>
+
+          <li>
+            <a href="https://awj-store.com/products/%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D8%A3%D9%88%D8%AC-500-%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9?utm_source=TikTok&utm_medium=TikTok_LP_%D8%A3%D9%88%D8%AC-500-%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9-A&utm_campaign=Tash_TikTok_LP_%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9&utm_term=%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9" class="btn btn-primary">اطلب الحين ووفر فلوسك</a>
+          </li>
+          <li class="nav-item d-flex pt-3">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="checkbox-label">
+              <img src="./assets/images/sun.png" alt="sun">
+              <i class="fa-solid fa-moon"></i>
+              <span class="ball"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+      
+     <style>
+       @media screen and (max-width:767px) {
+        main #home{
+          height: 100%;
+        }
+        main #home .container .hero-content{
+          margin-top: 30px;
+        }
+        .pt-3{
+  padding-top:15px ;
+}
+       }
+     </style>
+      <section class="section hero" id="home" aria-label="hero" >
+        <canvas id="starfield"></canvas>
+        <style>
+          .hero {
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          canvas {
+            display: block;
+            background-color: black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+          }
+          .hero .container {
+            position: relative;
+            z-index: 2;
+            color: white; 
+          }
+        </style>
+        <script>
+          document.addEventListener("DOMContentLoaded", () => {
+            const canvas = document.getElementById("starfield");
+            const ctx = canvas.getContext("2d");
+            const numStars = 800;
+            const speed = 0.5;
+            let stars = [];
+        
+            function setCanvasSize() {
+              canvas.width = window.innerWidth;
+              canvas.height = window.innerHeight;
+            }
+        
+            class Star {
+              constructor(x, y, z, size) {
+                this.x = x;
+                this.y = y;
+                this.z = z;
+                this.size = size;
+              }
+        
+              update() {
+                this.z -= speed;
+                if (this.z <= 0) {
+                  this.reset();
+                }
+              }
+        
+              reset() {
+                this.z = canvas.width;
+                this.x = Math.random() * (canvas.width * 2) - canvas.width;
+                this.y = Math.random() * (canvas.height * 2) - canvas.height;
+                this.size = Math.random() * 2 + 1;
+              }
+        
+              draw() {
+                const x = ((this.x / this.z) * canvas.width) / 2 + canvas.width / 2;
+                const y = ((this.y / this.z) * canvas.height) / 2 + canvas.height / 2;
+                const radius = (1 - this.z / canvas.width) * this.size;
+                ctx.beginPath();
+                ctx.arc(x, y, radius, 0, Math.PI * 2);
+                ctx.fill();
+              }
+            }
+        
+            function initStars() {
+              stars = Array.from(
+                { length: numStars },
+                () =>
+                  new Star(
+                    Math.random() * (canvas.width * 2) - canvas.width,
+                    Math.random() * (canvas.height * 2) - canvas.height,
+                    Math.random() * canvas.width,
+                    Math.random() * 2 + 1
+                  )
+              );
+            }
+        
+            function updateStars() {
+              stars.forEach((star) => star.update());
+            }
+        
+            function drawStars() {
+              ctx.clearRect(0, 0, canvas.width, canvas.height);
+              ctx.fillStyle = "white";
+              stars.forEach((star) => star.draw());
+            }
+        
+            function animate() {
+              updateStars();
+              drawStars();
+              requestAnimationFrame(animate);
+            }
+        
+            window.addEventListener("resize", () => {
+              setCanvasSize();
+              initStars();
+            });
+        
+            setCanvasSize();
+            initStars();
+            animate();
+          });
+        </script>
+        <div class="container" data-aos="fade-up"  data-aos-duration="2500">
+          <div class="hero-content">
+            <h1 class="h1 hero-title" style="color: #fff; text-align: right;">مناديل أوج حنونة على بشرتك وجيبك</h1>
+            <p class="hero-text" style="text-align: right;">
+              إذا ودك بمناديل فيها بركة وبسعر خفيف على الجيب
+            </p>
+            <a href="https://awj-store.com/products/%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D8%A3%D9%88%D8%AC-500-%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9?utm_source=TikTok&utm_medium=TikTok_LP_%D8%A3%D9%88%D8%AC-500-%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9-A&utm_campaign=Tash_TikTok_LP_%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9&utm_term=%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9" class="btn btn-primary">اطلب الحين ووفر فلوسك</a>
+            <br>
+            <div class="icon-group">
+              <a target="_blank" class="text-decoration-none icon-item shadow-social twitter"  id="twitter"    href="https://www.tiktok.com/@awjstore_sa"><i class="fab fa-tiktok" style="font-size: 23px; line-height: 30px;"></i></a>
+              <a target="_blank" class="text-decoration-none icon-item shadow-social whatsapp" id="whatsapp"   href="https://api.whatsapp.com/send/?phone=9660556257275&text&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"style=" font-size: 23px;  line-height: 30px;"></i></a>
+              <a target="_blank" class="text-decoration-none icon-item shadow-social instagram" id="instagram" href="https://www.instagram.com/awjstore_sa"><i class="fab fa-instagram"style="font-size: 23px; line-height: 30px;"></i></a>
+              <a target="_blank" class="text-decoration-none icon-item shadow-social twitter"         id="twitter" href="https://x.com/awjstore_sa"><i class="fa-brands fa-x-twitter"style="font-size: 23px; line-height: 30px;"></i></a>
+              <a target="_blank" class="text-decoration-none icon-item shadow-social snapchat"  id="snapchat" href="https://www.snapchat.com/add/awjstore_sa"><i class="fab fa-snapchat"style="font-size: 23px; line-height: 30px;"></i></a>
+              <style>
+      .whatsapp:hover {
+        color: #fff;
+        background-color: #25D366;
+        transition:all .3s ease ;
+      }
+    
+      .whatsapp:hover .fab {
+        color: #fff; 
+      }
+
+
+.icon-group{
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+.icon-group a{
+font-size: 1.5rem;
+padding: 5px 10px;
+margin: 0 10px;
+background-color: white;
+border-radius: 50%;
+box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.1) !important;
+color: #000;
+}
+@media screen and (max-width:767px) {
+  .icon-group a{
+    margin: 0 auto;
+
+  }
+      }
+.icon-group .instagram{
+transition:all .3s ease ;
+
+
+}
+.icon-group .instagram:hover {
+
+background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+color: white;
+background-color: #dcd65ec5;
+}
+
+.icon-group .twitter{
+transition:all .3s ease ;
+
+}
+.icon-group .twitter:hover {
+background-color:#222; 
+color: #fff;
+}
+.icon-group .linkedin{
+transition:all .3s ease ;
+
+}
+.icon-group .linkedin:hover {
+background-color:#0a66c2; 
+color: #fff;
+}
+
+.icon-group .snapchat{
+transition:all .3s ease ;
+
+}
+.icon-group .snapchat:hover {
+background-color:rgb(255, 252, 0);
+; 
+color: #000;
+}
+
+
+    </style>
+    
+    
+          </div>
+          
+          </div>
+          <figure class="hero-banner">
+            <img src="./assets/images/project-7-removebg.png" alt="hero banner" class="w-100">
+          </figure>
+        </div>
+      </section>
+      
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div data-aos="fade-up"  data-aos-duration="2000" class="about-banner img-holder" style="--width: 720; --height: 960;">
+            <img src="./assets/images/project-1.webp" width="720" height="960" loading="lazy" alt="about banner"
+              class="img-cover">
+
+            <button class="play-btn" aria-label="Play video">
+              <ion-icon name="play" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+<style>
+  p{
+  text-align: right !important;
+  }
+</style>
+          <div class="about-content">
+
+            <h2 data-aos="fade-up" class="h2 section-title" style="text-align: right;">ليش ترضى بالعادي وانت تقدر تاخذ الأفضل ..</h2>
+
+            <p data-aos="fade-up" class="section-text">
+
+              المنديل العادي ..
+ضعيف يذوب ويتفتت من اي قطرة سائل 
+تحتاج كمية أكبر في كل مرة تستخدمه 😩
+
+اما بالنسبة لـمنديل أوج ..
+
+- شجاع وقوي 💪  .. ضد السوائل.
+- يقاتل معك لآخر قطرة☹️❤️!
+- ما يطلب فزعتك حتى لو أحتاج💔
+
+              
+                          </p>
+
+            <h3 data-aos="fade-up" class="h3" style="text-align: right;">اللي جرب مناديل أوج بيشوف البركة في مناديله</h3>
+
+            <p data-aos="fade-up" class="section-text">
+              لانه أخذ مناديل كميتها راهية وجودتها عالية تعيش معاه فترة أطول والأحلى انه بأقل سعر😍
+
+              <br>
+              جودة أعلى = توفير أكثر
+            </p>
+
+            <h3 data-aos="fade-up" class="h3">معيار التوفير في المناديل
+              ليس السعر للاسف!
+              </h3>
+
+            <ul class="about-list" data-aos="fade-up" >
+
+              <li class="about-item" >
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                  كثير من الناس يطيحون في فخ السعر الأرخص أكيد أوفر
+                  <br>
+                  لكن حقيقة المناديل المصنوعة من مواد متدنية ترفع استهلاكك و تخلص عليك اسرع.
+                  <br>                 
+                  عشان كذا انصحك بالمناديل اللي
+                  جودتها عالية مثل أوج
+                  <br>
+                  تقلل إستهلاكك للمناديل وبنفس الوقت سعرها منخفض مقابل جودتها
+                  <br>
+                  فرصتك الحين تاخذها بعرض ما يتفوت
+                  
+                                  </p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" id="project" aria-label="project">
+        <div class="container">
+
+          <h2 data-aos="fade-up" class="h2 section-title">فوق الجودة العالية
+            مضبطينك بعرض</h2>
+
+          <p data-aos="fade-up" class="section-text">
+           <br>
+          </p>
+
+          <ul class="grid-list">
+
+            <li data-aos="fade-up"  data-aos-duration="1000">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 800;">
+                  <img src="./assets/images/product1.avif" width="600" height="800" loading="lazy"
+                    alt="Designing a better cinema experience" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a target="_blank" href="./assets/images/product1.avif" class="card-title">إجمالي 32 عبوة بـ 500 منديل</a>
+                  </h3>
+
+                  <a target="_blank" href="https://awj-store.com/products/%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D8%A3%D9%88%D8%AC-500-%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9" class="btn btn-primary">ب 99 ريال فقط</a>
+                  <a target="_blank" href="./assets/images/product1.avif" class="btn btn-primary" style="margin-top: 10px;"> عرض التفاصيل</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-aos="fade-up"  data-aos-duration="2000">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 800;">
+                  <img src="./assets/images/product2.avif" width="600" height="800" loading="lazy"
+                    alt="Building design process within teams" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">تقدر توفر أكثر ..!!</p>
+
+                  <h3 class="h3">
+                    <a target="_blank" href="./assets/images/product2.avif" class="card-title">بإجمالي عدد 48 ألف منديل</a>
+                  </h3>
+
+                  <a target="_blank" href="https://awj-store.com/products/%D8%B9%D8%B1%D8%B6-3-%D8%B1%D8%A8%D8%B7%D8%A7%D8%AA-%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D8%A3%D9%88%D8%AC" class="btn btn-primary">ب 289 ريال شامل الضريبة والتوصيل</a>
+                  <a target="_blank" href="./assets/images/product2.avif" class="btn btn-primary" style="margin-top: 10px;"> عرض التفاصيل</a>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="cta" style="background-image: url('./assets/images/project-3.webp');">
+        <div class="container">
+
+          <p data-aos="fade-up"  data-aos-duration="1000" class="cta-subtitle" style="text-align: center !important;">مناديل أوج حنونة على بشرتك وجيبك</p>
+
+          <h2 data-aos="fade-up"  data-aos-duration="1000" class="h2 section-title">إذا ودك بمناديل فيها بركة وبسعر خفيف على الجيب</h2>
+
+          <a data-aos="fade-up"  data-aos-duration="1000" href="https://awj-store.com/products/%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D8%A3%D9%88%D8%AC-500-%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9?utm_source=TikTok&utm_medium=TikTok_LP_%D8%A3%D9%88%D8%AC-500-%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9-A&utm_campaign=Tash_TikTok_LP_%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9&utm_term=%D9%85%D9%86%D8%AF%D9%8A%D9%84-%D9%85%D9%81%D8%B1%D8%AF-32-%D8%B9%D8%A8%D9%88%D8%A9" class="btn btn-secondary">اطلب الحين ووفر فلوسك</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <h2 data-aos="fade-up"  data-aos-duration="1000" class="h2 section-title">لا تتردد وتواصل عن طريق معنا.</h2>
+
+          <p style="text-align: center !important;" data-aos="fade-up"  data-aos-duration="1000" class="section-text">
+            لأي استفسار أو مساعدة
+            في إتمام الطلب.            
+                  </p>
+
+          <form action="" class="contact-form" data-aos="fade-up"  data-aos-duration="2000">
+
+            <div class="input-wrapper">
+              <input  type="text" name="name" aria-label="name" placeholder="أسمك بالكامل" required class="input-field">
+
+      
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" aria-label="email" placeholder="البريد الألكتروني*" required
+              class="input-field">
+              <input type="number" name="phone" aria-label="phone" placeholder="رقم هاتفك" class="input-field">
+            </div>
+
+            <textarea name="message" aria-label="message" placeholder="رسالتك لنا...*" required
+              class="input-field"></textarea>
+
+            <button type="submit" class="btn btn-primary">أرسل الرسالة</button>
+
+          </form>
+
+          <ul class="contact-list">
+
+            <li class="contact-item" data-aos="fade-up"  data-aos-duration="2000">
+              <div class="contact-card">
+
+                <div class="card-icon">
+              <img src="./assets/images/اوج-مصغر.svg" style="width: 32px; height: 32px;" alt="">
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">مناديل أوج</h3>
+
+                  <address class="card-address">
+                    صناعات ورقية وإستهلاكية - الرياض، طريق الأمير محمد بن سلمان
+
+                  </address>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="contact-item" data-aos="fade-up"  data-aos-duration="3000" >
+              <div class="contact-card" style="background-color: transparent;">
+
+                <div class="card-icon" >
+                  <ion-icon name="headset-outline" aria-hidden="true" style="color: #000;"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">تواصل معنا</h3>
+
+                  <a href="https://api.whatsapp.com/send/?phone=9660556257275&text&type=phone_number&app_absent=0" class="card-link">9660556257275+</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright" style="text-align: center !important;">
+        &copy; جميع الحقوق محفوظة 2024 <a target="_blank" href="https://awj-store.com/" class="copyright-link">مناديل أوج</a>
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" aria-label="back to top" data-back-top-btn class="back-top-btn">
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
